@@ -1,0 +1,130 @@
+.user-details .input-box input{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    font-size: 16px;
+    outline: none;
+
+    background-color: rgb(5, 65, 75);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+form .user-details .input-box{
+    margin: auto;
+    width: calc(950px/2 - 20px);
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: rgb(18,123,159);
+}
+.container{
+    max-width: 970px;
+    width: 970px;
+    color: white;
+    padding: 9px 0px 9px 0px;
+    border-radius: 2px;
+}
+body{
+    background-image: url(z.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    background-position: center;
+    font-family: sans-serif;
+    }
+    img{
+        position: center;
+    }
+    h1{
+        
+        text-align: center;
+    }
+    table{
+        width: 950px;
+        background-color: rgba(115, 126, 155, 0.5);
+        margin: auto;
+        color: #FFF;
+        padding: 10px 0px 10px 0px;
+        
+        border-radius: 15px 15px 0px 0px;
+        box-shadow: 8px 8px 50px rgb(47, 63, 91);
+    }
+    lebel{
+        font-size: large;
+        color:#FFF
+    }
+    h2{
+        text-align: center;
+        color: #FFF;
+        background-color: rgb(5,65,75);
+        width: 100%;
+    }
+    input{
+        background: transparent;
+        color: #fff;
+        box-shadow: 0 0 9px rgb(5, 65, 75);
+        border: 1px solid rgb(57, 85, 137);
+
+    }
+
+    select{
+        background-color:rgba(5, 65, 75);
+        color: white;
+    }
+    div{
+        background-color: #f6e4e4;
+
+         width: 970px;
+        margin: auto;
+        box-shadow: 0px 0px 10px rgb(5, 65, 75,0.3);
+    }
+    tr{
+        background: rgb(5,65,75);   
+    }
+    th{
+        font-size: large;
+    }
+h1{
+    width: 970px;
+    background-color: rgb(5, 65,75);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button input[type="submit"]{
+    border: 0px;
+    outline: 0px;
+    background-color: rgb(5, 65, 75);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    height: 100%;
+    width: 970px;
+}
+
+.button input[type="submit"]:hover{
+    cursor: pointer;
+    color: rgb(26, 4, 97);
+}
+
+
+
+::placeholder{
+    color:#FFF;
+  }
+  .main{
+    max-height: 900px;
+    overflow: scroll;
+    width: 990px;
+}

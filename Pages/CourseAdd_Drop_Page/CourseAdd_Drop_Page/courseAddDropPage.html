@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Add/Drop</title>
+    <link rel="stylesheet" type="text/css" href="courseAddDropPage.css">
+
+</head>
+<body>
+    <center>
+    <h1>COURSE ADD/DROP</h1><br/><br/>
+    <div class="main">
+                       <label> Name: </label>
+                       <input type="text" placeholder="Enter Your Name" required>
+
+                       <label> Matric I'D: </label>
+                       <input type="text" placeholder="Enter Your I'D" required>
+                       <br/><br/>
+
+                       <div class="input-box">
+                        <span class="details">Semester: </span>
+                        <select name="Semester">
+                            <option value="Semsester Select">Semester Select</option>
+                 
+                            <option  value="Autumn-2022">Autumn-2022</option>
+                 
+                            <option value="Spring-2023">Spring-2023</option>
+                         </select>
+
+                       <label> Section: </label>
+                       <input type="text" placeholder="Ex:1st" required>
+                       <br/><br/>
+                       
+                       <label> Department: </label>
+                       <input type="text" placeholder="CSE" required>
+                       
+                       <label> program: </label>
+                       <input type="text" placeholder="Ex:Bachelor program" required>
+                       <br/><br/>
+
+                       <label> Semester number: </label>
+                       <input type="text" placeholder="Ex:Third Semsester" required>
+
+                       <label> Registared Credit: </label>
+                       <input type="text" placeholder="Ex:21" required>
+                       <br/><br/>
+
+                       <label> First Installment: </label>
+                       <input type="text" placeholder="Ex:0" required>
+
+                       <label> Payment: </label>
+                       <input type="text" placeholder="Ex:30,000" required>
+                       <br/><br/><br/>
+
+                       <div>
+                        <div class="input">
+                        <span class="details">GPA:3.05 and Max CH: Regular:20, Additional:0 and Retake: 2 Courses or 6 Credit </span><br><br><br>
+                    </div>
+
+                    <div>
+                        <table border="2px">
+                            <tr>
+                                <th>SI.No</th>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Credit Hours</th>
+                                <th>Section</th>
+                                <th>Sub Section</th>
+                            </tr>
+                                <h2>New Offered/Registared Courses</h2>
+                            <tr>
+                                <th><input type="checkbox"/>1</th>
+                                <th>CSE-1121</th>
+                                <th>Computer Programming-I</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th> 
+                                    <select name="sub section" >
+                                <option value="A">A</option>
+                                <option value="B">B</option>
+                                <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>2</th>
+                                <th>CSE-1122</th>
+                                <th>Computer Programming-I Lab</th>
+                                <th> 1.5 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>3</th>
+                                <th>EEE-1121</th>
+                                <th>Basic Electrical Engineering</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>4</th>
+                                <th>EEE-1122</th>
+                                <th>Basic Electrical Engineering</th>
+                                <th> 1.5 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>5</th>
+                                <th>MATH-1107</th>
+                                <th>Marhematics-I(Differential and Integral Calculus)</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>6</th>
+                                <th>PHY-1101</th>
+                                <th>Physics-I(Machanics,Waves,Heat & Thermodynamics)</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>7</th>
+                                <th>UREL-1106</th>
+                                <th>Advanced English</th>
+                                <th> 2 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>8</th>
+                                <th>UREM-1101</th>
+                                <th>Text of Ethics and Morality</th>
+                                <th> 1 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Total Credit</th>
+                                <th>18</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </table>
+    <h2>Advanced Course</h2>
+                        <table border="1">
+                            <tr>
+                                <th>SI.No</th>
+                                <th>Course Code</th>
+                                <th>Course Name</th>
+                                <th>Credit Hours</th>
+                                <th>Section</th>
+                                <th>Sub Section</th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>9</th>
+                                <th>CSE-1221</th>
+                                <th>Computer Programming-II</th>
+                                <th> 3 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>10</th>
+                                <th>CSE-1222</th>
+                                <th>Computer Programming-II Lab</th>
+                                <th> 1.5 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>11</th>
+                                <th>EEE-1221</th>
+                                <th>Electronics</th>
+                                <th> 3 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>12</th>
+                                <th>EEE-1222</th>
+                                <th>Electronics Lab</th>
+                                <th> 1.5 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>13</th>
+                                <th>MATH-1207</th>
+                                <th>Marhematics-II(Geomatric and Differential Equation)</th>
+                                <th> 3 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>14</th>
+                                <th>PHY-1201</th>
+                                <th>Physics-II(Electromagnetism,optics and Modern Physics)</th>
+                                <th> 3 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>15</th>
+                                <th>PHY-1204</th>
+                                <th>Physics-II Lab</th>
+                                <th> 1.5 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>16</th>
+                                <th>URED-1201</th>
+                                <th>Basic Principles of Islam(Aqidah+Ibadah)</th>
+                                <th> 3 </th>
+                                <th>Female</th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>17</th>
+                                <th>CSE-2340</th>
+                                <th>Software Deplopment-I</th>
+                                <th> 2 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>18</th>
+                                <th>CHEM-2301</th>
+                                <th>Chemistry</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>19</th>
+                                <th>CHEM-2304</th>
+                                <th>Chemistry Lab</th>
+                                <th> 1.5 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>20</th>
+                                <th>CSE-2321</th>
+                                <th>Data Structure</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>21</th>
+                                <th>CSE-2322</th>
+                                <th>Data Structure Lab</th>
+                                <th> 1 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>22</th>
+                                <th>CSE-2323</th>
+                                <th>Digital Logic Design</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>23</th>
+                                <th>CSE-2324</th>
+                                <th>Digital Logic Design Lab</th>
+                                <th> 1.5 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>24</th>
+                                <th>MATH-2307</th>
+                                <th>Marhematics-III</th>
+                                <th> 3 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>25</th>
+                                <th>STAT-2311</th>
+                                <th>Probability And Statistics</th>
+                                <th> 2 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                                <th><input type="checkbox"/>26</th>
+                                <th>URED-2302</th>
+                                <th>Sciences of Quran and Hadit</th>
+                                <th> 1 </th>
+                                <th> Female </th>
+                                <th>
+                                    <select name="sub section" >
+                                        <option value="A">A</option>
+                                        <option value="B">B</option>
+                                        <option value="C">C</option>
+                                    </select> 
+                                </th>
+                            </tr>
+                            <tr>
+                        </table>
+                        <div class="button"><br>
+                    <input type="submit" value="submit"  />
+             </div>
+    </body>
+</html>

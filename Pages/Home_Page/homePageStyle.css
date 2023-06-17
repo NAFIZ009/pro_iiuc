@@ -1,0 +1,210 @@
+
+         .flex-container{
+            display: flex;
+            justify-content: center;
+           
+         }
+         a{
+            text-decoration: none;
+         }
+         .flex-container>div{
+            width: 100px;
+            background-color: rgb(243, 83, 83);
+            font-size: 25px;
+            margin: 15px;
+            padding: 10px;
+            text-align: center;
+            margin-top: 10px;
+     }
+     .flex-container2{
+        display: flex;
+        justify-content: center;
+
+     }
+     .flex-container2 > div{
+        width: 100px;
+        background-color: hsl(44, 98%, 59%);
+        font-size: 25px;
+        margin: 15px;
+        padding: 10px;
+        text-align: center;
+ }
+ .flex-container3{
+    display: flex;
+    justify-content: center;
+ }
+ .flex-container3> div{
+    width: 100px;
+    background-color: rgb(243, 83, 83);
+    font-size: 25px;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.flex-container4{
+    display: flex;
+    justify-content: center;
+    
+}
+    .flex-container4>div{
+        width: 320px;
+        background-color: rgb(243, 83, 83);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        color: white;
+    }
+    .flex-container5{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container5>div{
+        width: 320px;
+        background-color: rgb(243, 83, 83);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container6{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container6>div{
+        width: 300px;
+        background-color: rgb(240, 101, 168);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container7{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container7>div{
+        width: 300px;
+        background-color: rgb(240,101, 168);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container8{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container8>div{
+        width: 300px;
+        background-color: rgb(47, 150, 86);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container9{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container9>div{
+        width: 300px;
+        background-color: rgb(47,150, 86);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container10{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container10>div{
+        width: 300px;
+        background-color: rgb(220, 197, 82);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .flex-container11{
+    display: flex;
+    justify-content: center;
+}
+    .flex-container11>div{
+        width: 300px;
+        background-color: rgb(220,197, 82);
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    div{
+margin: auto;
+display: flex;
+justify-content: center;
+    }
+    .main{
+        justify-content: center;
+        background: rgba(22, 101, 100, 0.3);
+        width: 1000px;
+    }
+    .container{
+    max-width: 950px;
+    width: 100%;
+    background: rgba(23, 115, 113, 0.3);
+    color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    background-color: rgb(5,65, 75);
+    background-position: center;
+    color: #fff;
+    width: 1000px;
+    
+    text-align: center;
+    margin: auto;
+}
+.container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+form .user-details .input-box{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+    font-weight: 500;
+    display: block;
+    margin-bottom:5px;
+}
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 5px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid wheat;
+    padding-left:15px ;
+    font-size: 16px;
+    border-bottom-width: 2x ;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+    border-color: rgb(17, 20, 21);
+}
+
+

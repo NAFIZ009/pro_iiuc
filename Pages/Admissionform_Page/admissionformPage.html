@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Responsive Admission Form</title>
+        <link rel="stylesheet" href="admissionformStyle.css">
+
+  </head>
+    <body>
+    <div class="regform"><h1>Admission Form</h1>
+    <div class="main">
+
+        <div class="container">
+            <form onsubmit="admissionDataUpload(event)">
+            <div>
+            <lebel>Name:  </lebel>
+            <input type="text" placeholder="Your First Name"  name="firstName"/> 
+            <input type="text" placeholder="Your Last Name" name="lastName"/> <br/><br/>
+            </div>
+        
+        <div>
+       <lebel>Father's Name:  </lebel>
+            <input type="text" placeholder="Your Father Name" name="fatherName"/>
+            <lebel>Mother's Name:  </lebel>
+ <input type="text" placeholder="Your Mother Name" name="motherName" /> <br/><br/>
+          </div>
+        <div>
+        <lebel>E-mail:  </lebel>
+        <input type="email" placeholder="Email" name="email" required />
+        <lebel>Phone Number</lebel>
+        <input type="text" placeholder="01xxxxxxxxx" name="number"/>
+        </div>
+          <br/>  
+        <br/>
+        <div>
+<lebel>Department:  </lebel>
+<select name="Deparment">
+<option value="CSE">CSE</option>
+<option value="CCE">CCE</option>
+<option value="ETE">ETE</option>
+<option value="EEE">EEE</option>
+<option value="Civil">Civil</option>
+<option value="Phamacy">Pharmacy</option>
+<option value="BBA">BBA</option>
+<option value="EB">EB</option>
+<option value="ELL">ELL</option>
+<option value="LLB">LLB</option>
+<option value="QSIS">QSIS</option>
+<option value="DIS">DIS</option>
+<option value="SHIS">SHIS</option>
+</select>
+        </div>
+        <br/>
+<lebel>Gender: </lebel>
+<select name="gender" id="">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+</select>
+<br/>
+<div class="row">
+    <div class="col-10">
+        <label for="address">Address:</label>
+    </div>
+    <div class="col-90">
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+    </div>
+</div>
+<br/>
+<div>
+       <lebel>Nationality:  </lebel>
+<input type="text" name="Nationality" />
+<br/><br/>
+<lebel>Religion:  </lebel>
+<input type="text" name="religion">
+ </div>
+ <div class="button">
+    <input type="Submit" value="Submit" class="btn btn-primary" />
+     <input type="reset" value="Reset" class="btn btn-primary" />
+ </div> 
+</form>
+        </div>
+  
+        
+    </div> 
+</div>
+<script src="/js/admission.js"></script>
+</body>
+</html>

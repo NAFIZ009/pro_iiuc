@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    font-family: montserrat;
+}
+body{
+    background: f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    letter-spacing: 2px;
+}
+.carousel-caption h6{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    line-height: 1.9;
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+
+    z-index: 1;
+}
+.navbar-nav a{
+font-size: 15px;
+text-transform: uppercase;
+font-weight: 500;
+color:#fff;
+}
+.navbar-light .navbar-brand{
+    color: #180892;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus,
+    .navbar-light .navbar-brand:hover{
+        color: #000;
+    }
+    .navbar-light .navbar-nav .navbar-link{
+        color:#180892;
+    }
+    .w-100{
+        height: 100vh;
+    }
+    .team .card-body{
+        font-size: 50px;
+    }
+    .team .card{
+        box-shadow: 15px 15px 40px rgba(0,0,0,0.25);
+    }
+.nav-link{
+    color: #fff;
+    margin: 10px;
+}
+/* *** responsive css *** */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+    .carousel-caption{
+bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+    .card{
+        margin-bottom:30px ;
+    }
+    .img-area img{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+}
+.carousel-caption a{
+    padding: 10px 15px;
+}
+.carousel-caption h5{
+    font-size: 25px;
+    color: #fff;
+}
+.carousel-caption h6{
+    font-size: 17px;
+}
+.carousel-caption p{
+width: 100%;
+line-height: 1.6;
+font-size: 12px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+/* footer starts */
+footer{
+        padding: 1% 10%;
+        background: #056676;
+    
+}
+footer a{
+    color: #fff;
+    margin: 0 10px;
+    
+}
+footer a:hover{
+    color: #000;
+}
+/* footer ends */
+h2{
+    background-color: rgba(10, 69, 88, 0.7);
+    text-align: center;
+    color: #fff;
+}
+.map iframe{
+    width: 100%;
+    border: none;
+    height: 500px;
+}
+.contact-text{
+    width: 100%;
+    height: auto;
+}
+.contact-text h2{
+font-size: 36px;
+font-weight: 500;
+margin: 0;
+padding-bottom: 20px;
+color:#fff;
+}
+.contact-text p{
+    font-size: 14px;
+    padding-top: 5px;
+    margin: 0;
+}    
+
+.sub-menu-1{
+   display: none; 
+}
+.container-fluid{
+    background-color: #69b8c4;
+}
+/* tutorial starts */
+#tutorial{
+    padding: 4% 10%;
+    background: #a3d2ca;
+    margin-top: 10px;
+}
+.card{
+    transition: .4s;
+    border: 1px solid #ff02c0;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* tutorial endss */
+#team{
+    background:#a3d2ca ;
+margin-bottom: 10px;
+
+}

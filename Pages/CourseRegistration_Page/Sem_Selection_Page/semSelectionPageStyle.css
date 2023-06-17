@@ -1,0 +1,30 @@
+body{
+    background-image: url(z.jpg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 50px;
+}
+h3{
+    
+    width: 280px;
+    background-color: rgb(5,65,75);
+    margin: auto;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.main{
+    height: 225px;
+margin: auto;
+width: 280px;
+margin: auto;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+padding: 15px;
+background-color: rgba(32, 99, 141, 0.4);
+box-shadow: 8px 8px 50px rgb(5, 65, 75,);
+}

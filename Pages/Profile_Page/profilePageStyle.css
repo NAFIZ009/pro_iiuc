@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+label
+{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 30px;
+    background-color:rgb(110, 177, 179);
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 8px 8px 50px rgb(91, 175, 184);
+}
+.container.h2{
+    background-color: rgb(17, 59, 93);
+}
+.button :hover{
+    color: #fff;
+    background-color: rgb(17, 59, 93);
+
+}

@@ -1,0 +1,37 @@
+body{
+    background-size: cover;
+    margin-top: 100px;
+    background-position: center;
+    font-family: sans-serif;
+    background-image: url(IMG-20230318-WA0018.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+div{
+    background-color:rgb(255,255,255,0.8);
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    color: #2c2222;
+    padding: 10px 0px 10px 0px;
+    border: 5px solid rgb(11, 68, 50);
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 8px 8px 50px rgb(62, 113, 93);
+    text-align: left;
+    margin-bottom: 50px ;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    background: rgb(126, 160, 103);
+    margin-left: -15px;
+    margin: 0;
+    text-align: left;
+}
